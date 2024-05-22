@@ -1,11 +1,13 @@
-import { Box, Flex, Link, Spacer, Text } from "@chakra-ui/react";
+import { Box, Flex, Link, Spacer, Text, Image } from "@chakra-ui/react";
+import logo from "../../public/images/financial-times-logo.png";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <Box bg="gray.800" color="white" px={4} py={2}>
       <Flex align="center">
-        <Text fontSize="2xl" fontWeight="bold">
+        <Image src={logo} alt="Financial Times Logo" boxSize="50px" />
+        <Text fontSize="2xl" fontWeight="bold" ml={2}>
           Financial Times
         </Text>
         <Spacer />
