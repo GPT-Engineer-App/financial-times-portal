@@ -23,7 +23,7 @@ function App() {
         <Route exact path="/markets" element={<Markets />} />
         <Route exact path="/opinion" element={<Opinion />} />
         <Route exact path="/tech" element={<Tech />} />
-      <Route exact path="/about" element={<About />} />
+        <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/privacy" element={<Privacy />} />
         <Route exact path="/terms" element={<Terms />} />
