@@ -9,6 +9,7 @@ import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Privacy from "./pages/Privacy.jsx";
 import Terms from "./pages/Terms.jsx";
+import Sports from "./pages/Sports.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/privacy" element={<Privacy />} />
         <Route exact path="/terms" element={<Terms />} />
+        <Route exact path="/sports" element={<Sports />} />
       </Routes>
       <Footer />
     </Router>
